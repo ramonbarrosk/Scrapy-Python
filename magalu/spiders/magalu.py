@@ -25,7 +25,7 @@ class MagaluSpider(scrapy.Spider):
             }
         ultima_pagina = response.xpath('//li[@class="css-1a9p55p"][6]/a/text()').extract()
         valor = int(ultima_pagina[0])
-        for i in range(5):
+        for i in range(valor):
             url = 'https://www.magazineluiza.com.br/smartphone/celulares-e-smartphones/s/te/tcsp?page='+str(i+1)
             yield scrapy.Request(url=url, callback=self.parse)
             
