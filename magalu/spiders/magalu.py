@@ -8,7 +8,7 @@ class MagaluSpider(scrapy.Spider):
     
    
     def start_requests(self):
-        urls = [f'https://www.magazineluiza.com.br/smartphone/celulares-e-smartphones/s/te/tcsp?page={i}' for i in range(1,106)]
+        urls = [f'https://www.magazineluiza.com.br/smartphone/celulares-e-smartphones/s/te/tcsp?page=1']
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse)
     def parse(self, response):
@@ -23,4 +23,12 @@ class MagaluSpider(scrapy.Spider):
                 'valor_vista' : valor_vista,
                 'valor_prazo' : valor_prazo
             }
+        ultima_pagina = response.xpath('//li[@class="css-1a9p55p"][6]/a/text()').extract()
+        valor = int(ultima_pagina[0])
+        for i in range(5):
+            url = 'https://www.magazineluiza.com.br/smartphone/celulares-e-smartphones/s/te/tcsp?page='+str(i+1)
+            yield scrapy.Request(url=url, callback=self.parse)
+            
+       
+        
        
