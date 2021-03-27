@@ -3519,7 +3519,8 @@ JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=9tqfpu, line 1: unreacha
 1616817995145	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-a Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Ramon\\AppData\\Local\\Temp\\rust_mozprofile9z5xk8"
+Exiting due to channel error.
+onette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Ramon\\AppData\\Local\\Temp\\rust_mozprofile9z5xk8"
 *** You are running in headless mode.
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1616818122544	Marionette	INFO	Listening on port 49271
@@ -3811,7 +3812,8 @@ JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-BR2N, line 2850
 JavaScript error: https://www.magazineluiza.com.br/smartphone/celulares-e-smartphones/s/te/tcsp?page=1 line 3110 > injectedScript, line 2: TypeError: els[i].querySelector(...) is null
 JavaScript error: https://www.magazineluiza.com.br/smartphone/celulares-e-smartphones/s/te/tcsp?page=1 line 3console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-urge.js, line 1: unreachable code after return statement
+Exiting due to channel error.
+de after return statement
 JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
 JavaScript error: , line 0: uncaught exception: undefined
 JavaScript error: https://www.magazineluiza.com.br/static/js/base.66936625f76888ea0df2.js, line 32: Error: only one instance of babel-polyfill is allowed
@@ -3913,7 +3915,8 @@ JavaScript warning: https://tm.jsuol.com.br/modules/update-persistence.js, line 
 JavaScript warning: https://tm.jsuol.com.br/modules/update-persistence.js, line 1: unreachable code after return statement
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-a Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Ramon\\AppData\\Local\\Temp\\rust_mozprofileMKSm6L"
+Exiting due to channel error.
+onette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Ramon\\AppData\\Local\\Temp\\rust_mozprofileMKSm6L"
 *** You are running in headless mode.
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1616820501406	Marionette	INFO	Listening on port 53680
@@ -4459,3 +4462,153 @@ JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unr
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 1616824365696	Marionette	INFO	Stopped listening on port 57080
 JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 988: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1616825350367	geckodriver	INFO	Listening on 127.0.0.1:57624
+1616825353398	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Ramon\\AppData\\Local\\Temp\\rust_mozprofilezbu28I"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616825357458	Marionette	INFO	Listening on port 57632
+1616825357651	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=9tqfpu, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=9tqfpu, line 1: unreachable code after return statement
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-BR2N, line 2850: uncaught exception: [object Object]
+JavaScript error: https://www.magazineluiza.com.br/smartphone/celulares-e-smartphones/s/te/tcsp?page=1 line 3110 > injectedScript, line 2: TypeError: els[i].querySelector(...) is null
+JavaScript error: https://www.magazineluiza.com.br/smartphone/celulares-e-smartphones/s/te/tcsp?page=1 line 3110 > injectedScript, line 2: ReferenceError: google_tag_params is not defined
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=9tqfpu, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=9tqfpu, line 1: unreachable code after return statement
+JavaScript error: https://www.magazineluiza.com.br/smartphone/celulares-e-smartphones/s/te/tcsp?page=20 line 3110 > injectedScript, line 2: TypeError: els[i].querySelector(...) is null
+JavaScript error: https://www.magazineluiza.com.br/smartphone/celulares-e-smartphones/s/te/tcsp?page=20 line 3110 > injectedScript, line 2: ReferenceError: google_tag_params is not defined
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=9tqfpu, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=9tqfpu, line 1: unreachable code after return statement
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-BR2N, line 2850: uncaught exception: [object Object]
+JavaScript error: https://www.magazineluiza.com.br/smartphone/celulares-e-smartphones/s/te/tcsp?page=19 line 3110 > injectedScript, line 2: TypeError: els[i].querySelector(...) is null
+JavaScript error: https://www.magazineluiza.com.br/smartphone/celulares-e-smartphones/s/te/tcsp?page=19 line 3110 > injectedScript, line 2: ReferenceError: google_tag_params is not defined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=9tqfpu, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=9tqfpu, line 1: unreachable code after return statement
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-BR2N, line 2850: uncaught exception: [object Object]
+JavaScript error: https://www.magazineluiza.com.br/smartphone/celulares-e-smartphones/s/te/tcsp?page=18 line 3110 > injectedScript, line 2: TypeError: els[i].querySelector(...) is null
+JavaScript error: https://www.magazineluiza.com.br/smartphone/celulares-e-smartphones/s/te/tcsp?page=18 line 3110 > injectedScript, line 2: ReferenceError: google_tag_params is not defined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=9tqfpu, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=9tqfpu, line 1: unreachable code after return statement
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-BR2N, line 2850: uncaught exception: [object Object]
+JavaScript error: https://www.magazineluiza.com.br/smartphone/celulares-e-smartphones/s/te/tcsp?page=17 line 3110 > injectedScript, line 2: TypeError: els[i].querySelector(...) is null
+JavaScript error: https://www.magazineluiza.com.br/smartphone/celulares-e-smartphones/s/te/tcsp?page=17 line 3110 > injectedScript, line 2: ReferenceError: google_tag_params is not defined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-BR2N, line 2850: uncaught exception: [object Object]
+JavaScript error: https://www.magazineluiza.com.br/smartphone/celulares-e-smartphones/s/te/tcsp?page=16 line 3110 > injectedScript, line 2: TypeError: els[i].querySelector(...) is null
+JavaScript error: https://www.magazineluiza.com.br/smartphone/celulares-e-smartphones/s/te/tcsp?page=16 line 3110 > injectedScript, line 2: ReferenceError: google_tag_params is not defined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-BR2N, line 2850: uncaught exception: [object Object]
+JavaScript error: https://www.magazineluiza.com.br/smartphone/celulares-e-smartphones/s/te/tcsp?page=15 line 3110 > injectedScript, line 2: TypeError: els[i].querySelector(...) is null
+JavaScript error: https://www.magazineluiza.com.br/smartphone/celulares-e-smartphones/s/te/tcsp?page=15 line 3110 > injectedScript, line 2: ReferenceError: google_tag_params is not defined
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/update-persistence.js, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/update-persistence.js, line 1: unreachable code after return statement
+JavaScript error: https://www.magazineluiza.com.br/smartphone-samsung-galaxy-s10-61-128gb-azul/p/gggaeb07k1/te/gs10/, line 1209: SyntaxError: missing } after property list
+JavaScript note: https://www.magazineluiza.com.br/smartphone-samsung-galaxy-s10-61-128gb-azul/p/gggaeb07k1/te/gs10/, line 1206: { opened at line 1206, column 18
+JavaScript error: https://www.magazineluiza.com.br/smartphone-samsung-galaxy-s10-61-128gb-azul/p/gggaeb07k1/te/gs10/, line 1218: SyntaxError: missing } after property list
+JavaScript note: https://www.magazineluiza.com.br/smartphone-samsung-galaxy-s10-61-128gb-azul/p/gggaeb07k1/te/gs10/, line 1216: { opened at line 1216, column 14
+JavaScript error: https://www.magazineluiza.com.br/smartphone-samsung-galaxy-s10-61-128gb-azul/p/gggaeb07k1/te/gs10/, line 1267: SyntaxError: missing ) after argument list
+JavaScript error: https://www.magazineluiza.com.br/smartphone-samsung-galaxy-s10-61-128gb-azul/p/gggaeb07k1/te/gs10/, line 1298: SyntaxError: missing } after property list
+JavaScript note: https://www.magazineluiza.com.br/smartphone-samsung-galaxy-s10-61-128gb-azul/p/gggaeb07k1/te/gs10/, line 1295: { opened at line 1295, column 25
+JavaScript error: https://www.magazineluiza.com.br/smartphone-samsung-galaxy-s10-61-128gb-azul/p/gggaeb07k1/te/gs10/ line 3110 > injectedScript, line 5: ReferenceError: digitalData is not defined
+JavaScript error: https://www.magazineluiza.com.br/smartphone-samsung-galaxy-s10-61-128gb-azul/p/gggaeb07k1/te/gs10/ line 3110 > injectedScript, line 17: ReferenceError: digitalData is not defined
+1616825389742	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://www.magazineluiza.com.br/smartphone-samsung-galaxy-s10-61-128gb-azul/p/gggaeb07k1/te/gs10/ line 3110 > injectedScript, line 1: ReferenceError: digitalData is not defined
+JavaScript warning: https://tm.jsuol.com.br/modules/update-persistence.js, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/update-persistence.js, line 1: unreachable code after return statement
+1616825393457	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616825393457	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://tm.jsuol.com.br/modules/update-persistence.js, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/update-persistence.js, line 1: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://tm.jsuol.com.br/modules/update-persistence.js, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/update-persistence.js, line 1: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://conteudoproduto.magazineluiza.com.br/15/155591300/index.html, line 201: ReferenceError: jQuery is not defined
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1616847283827	geckodriver	INFO	Listening on 127.0.0.1:55621
+1616847294420	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Ramon\\AppData\\Local\\Temp\\rust_mozprofilehLlXXn"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616847378226	Marionette	INFO	Listening on port 55629
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+a Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Ramon\\AppData\\Local\\Temp\\rust_mozprofileuTxyZg"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616847404918	Marionette	INFO	Listening on port 55740
+1616847405538	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=9tqfpu, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=9tqfpu, line 1: unreachable code after return statement
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-BR2N, line 2850: uncaught exception: [object Object]
+JavaScript error: https://www.magazineluiza.com.br/smartphone/celulares-e-smartphones/s/te/tcsp?page=1 line 3110 > injectedScript, line 2: TypeError: els[i].querySelector(...) is null
+JavaScript error: https://www.magazineluiza.com.br/smartphone/celulares-e-smartphones/s/te/tcsp?page=1 line 3110 > injectedScript, line 2: ReferenceError: google_tag_params is not defined
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=9tqfpu, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=9tqfpu, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/update-persistence.js, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/update-persistence.js, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=9tqfpu, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=9tqfpu, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=9tqfpu, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=9tqfpu, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/update-persistence.js, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/update-persistence.js, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/update-persistence.js, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/update-persistence.js, line 1: unreachable code after return statement
+1616847477977	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1616850907498	geckodriver	INFO	Listening on 127.0.0.1:56363
+1616850910585	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Ramon\\AppData\\Local\\Temp\\rust_mozprofileQQeCNv"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616850915792	Marionette	INFO	Listening on port 56372
+1616850915933	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616851070026	Marionette	INFO	Stopped listening on port 56372
+1616851391458	geckodriver	INFO	Listening on 127.0.0.1:56975
+1616851394528	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Ramon\\AppData\\Local\\Temp\\rust_mozprofileSBQdIl"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616851399384	Marionette	INFO	Listening on port 56984
+1616851399862	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616851437710	Marionette	INFO	Stopped listening on port 56984
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 988: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1616851511800	geckodriver	INFO	Listening on 127.0.0.1:57250
+1616851514860	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Ramon\\AppData\\Local\\Temp\\rust_mozprofileX43Oy8"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616851519567	Marionette	INFO	Listening on port 57261
+1616851519697	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616851570013	geckodriver	INFO	Listening on 127.0.0.1:57442
+1616851573060	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Ramon\\AppData\\Local\\Temp\\rust_mozprofileN55A6s"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616851579627	Marionette	INFO	Listening on port 57451
+1616851580024	Marionette	WARN	TLS certificate errors will be ignored for this session
