@@ -1,13 +1,27 @@
 import scrapy
 import json
 from selenium import webdriver
+from selenium_stealth import stealth
 
 class MagaluSpider(scrapy.Spider):
     name = "magazine"
     cep = "57100000"
 
     def __init__(self):
-        self.driver = webdriver.Chrome()
+        options =  webdriver.ChromeOptions()
+        options.add_argument("start-maximized")
+        #options.add_argument("--headless")
+        options.add_experimental_option("excludeSwitches", ["enable-automation"])
+        options.add_experimental_option('useAutomationExtension', False)
+        self.driver = webdriver.Chrome(options=options)
+        stealth(self.driver,
+                languages=["en-US", "en"],
+                vendor="Google Inc.",
+                platform="Win32",
+                webgl_vendor="Intel Inc.",
+                renderer="Intel Iris OpenGL Engine",
+                fix_hairline=True,
+        )
 
     def start_requests(self):
         yield scrapy.Request(url="https://www.magazineluiza.com.br/smartphone/celulares-e-smartphones/s/te/tcsp?page=1", callback=self.parse_paginas)
